@@ -203,10 +203,11 @@ color: white;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    cursor: pointer;
+   
 }
 .icons i{
     color: gainsboro;
+    cursor:pointer;
 }
 .icons i span{
    margin: 0px 10px;
