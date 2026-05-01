@@ -1,0 +1,166 @@
+@media only screen and (min-width:320px) and (max-width:576px) {
+    .mIcon{
+        display: flex;
+    }
+     nav {
+        position: fixed;
+        top: 0px;
+        left: -100%;
+        background-color: aquamarine;
+        width: 60%;
+        height: 100vh;
+        transition: .7s;
+    }
+    
+    nav ul{
+        margin-top: 100px;
+        flex-direction: column;   
+        
+    }
+    nav ul li {
+margin: 10px;
+    }
+    nav ul li a{
+        font-size: 10px;
+    }
+  .active{
+    left: 0;
+}
+
+.main-hero{
+    flex-direction: column;
+    gap: 30px;
+}
+.hero-text{
+    width: 300px;
+    font-size: 10px;
+    text-align: start;
+    
+}
+.hero-img img{
+    width: 300px;
+    height: auto;
+}
+
+ .main-about{
+    flex-direction: column;
+ }
+.about-img img{
+    width: 300px;
+    height: auto;
+}
+.about-text{
+    width: 300px;
+    height: auto;
+    text-align: center;
+}
+.main-skill{
+    flex-direction: column;
+    gap: 20px;
+}
+.education-question{
+    width: 300px;
+}
+.main-project{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+.main-contact{
+display: grid;
+grid-template-columns: 1fr 1fr;
+font-size: 12px;  
+gap: 100px;
+padding: 10px;
+}
+}
+
+@media only screen and (min-width:577px) and (max-width:1024px) {
+     .mIcon{
+        display: flex;
+    }
+     nav {
+        position: fixed;
+        top: 0px;
+        left: -100%;
+        background-color: aquamarine;
+        width: 60%;
+        height: 100vh;
+        transition: .7s;
+    }
+    
+    nav ul{
+        margin-top: 100px;
+        flex-direction: column;   
+        
+    }
+    nav ul li {
+margin: 10px;
+    }
+    nav ul li a{
+        font-size: 12px;
+    }
+  .active{
+    left: 0;
+}
+
+
+.main-hero{
+    flex-direction: column;
+    gap: 30px;
+}
+.hero-text{
+    width: 500px;
+    font-size: 14px;
+    text-align: start;
+    
+}
+.hero-img img{
+    width: 500px;
+    height: auto;
+}
+
+ .main-about{
+    flex-direction: column;
+ }
+.about-img img{
+    width: 400px;
+    height: auto;
+}
+.about-text{
+    width: 500px;
+    height: auto;
+    text-align: center;
+}
+.main-skill{
+    flex: 0 1 300px;
+    gap: 20px;
+    justify-content: center;
+}
+ .education-question{
+    width: 550px;
+}
+.main-project{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+#contact{
+    width: 100%;
+}
+.main-contact{
+max-width: 520;
+display: grid;
+grid-template-columns: 1fr 1fr;
+font-size: 14px;  
+gap: 150px;
+
+}
+.icons{
+margin-left: 80px;
+
+}
+Address{
+    padding: 10px;
+}
+}
